@@ -1,0 +1,13 @@
+diff --git a/SOURCES/dhcp-errwarn-message.patch b/SOURCES/dhcp-errwarn-message.patch
+index 18f77cf..9234121 100644
+--- a/SOURCES/dhcp-errwarn-message.patch
++++ b/SOURCES/dhcp-errwarn-message.patch
+@@ -14,7 +14,7 @@ diff -up dhcp-4.3.5/omapip/errwarn.c.errwarn dhcp-4.3.5/omapip/errwarn.c
+ +    size_t url_len = 256;
+ +
+ +    url = (char *) malloc(url_len * sizeof(char));
+-+    strcpy(url, "https://bugzilla.redhat.com/");
+++    strcpy(url, "https://bugs.openela.org/");
+ +
+ +    if (!file)
+ +        return url;
