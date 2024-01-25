@@ -1,0 +1,13 @@
+diff --git a/0001-change-bug-url.patch b/0001-change-bug-url.patch
+index b6afa57..65020e3 100644
+--- a/0001-change-bug-url.patch
++++ b/0001-change-bug-url.patch
+@@ -25,7 +25,7 @@ index e30f8a0..09a3004 100644
+ +    size_t url_len = 256;
+ +
+ +    url = (char *) malloc(url_len * sizeof(char));
+-+    strcpy(url, "https://bugzilla.redhat.com/");
+++    strcpy(url, "https://bugs.openela.org/");
+ +
+ +    if (!file)
+ +        return url;
